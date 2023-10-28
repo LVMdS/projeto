@@ -13,26 +13,39 @@
     <header>
         <a href="./index.html"><img src="./src/imagens/Zama2.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
     </header>
-    <nav>
-        <ul>
-            <li><a href="src/pages/products.html" target="_blank">Produtos</a></li>
-            <li><a href="src/pages/login.html" target="_blank">Login</a></li>
-            <li><a href="src/pages/checkout.html" target="_blank">Checkout</a></li>
-            <li><a href="src/pages/costumer.html" target="_blank">Área do Cliente</a></li>
-            <li><a href="src/pages/contact.html" target="_blank">Contato</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+            <ul class="menu">
+                <li><a href="./index.html" class="menu-button">Home</a></li>
+                <li><a href="./src/pages/products.html" class="menu-button">Produtos</a></li>
+                <li><a href="./src/pages/checkout.html" class="menu-button">Carrinho</a></li>
+                <li><a href="./src/pages/costumer.html" class="menu-button">Area Cliente</a></li>
+                <li><a href="./src/pages/login.html" class="menu-button">Login</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
+            <button type="button" id="search-button" class="menu-button">Pesquisar</button>
+        </div>
     </nav>
     <main>
-        <p>Bem-vindo à nossa loja online!</p>
-        <div class="slider">
-            <div class="slides">
+        <div class="content">
+            <p>Bem-vindo à nossa loja online!</p>
+            <div class="slider">
+                <div class="slides">
                 <div class="slide"><img src="./src/imagens/teste1.jpg" alt="teste1"></div>
                 <div class="slide"><img src="./src/imagens/teste2.jpg" alt="teste2"></div>
                 <div class="slide"><img src="./src/imagens/teste3.jpg" alt="teste3"></div>
-            </div>
+                </div>
+             </div>
         </div>
     </main>
     <footer></footer>
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>
