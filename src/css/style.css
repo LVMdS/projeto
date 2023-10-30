@@ -86,8 +86,8 @@
 
 .login-button,
 .register-button {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #ff6600;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -96,7 +96,7 @@
 
 .login-button:hover,
 .register-button:hover {
-    background-color: #22a9df;
+    background-color: #333;
     color: #ff6600;
 }
 
@@ -146,4 +146,95 @@ footer {
     background-color: #ffffff;
     color: #000000;
     padding: 10px;
+}
+
+/* Estilos para o contêiner de login */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.login-button:hover {
+    background-color: #333;
+    color: #ff6600;
+}
+
+.registro-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro-container h2 {
+    color: #333;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registro-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.registro-button:hover {
+    background-color: #333;
+    color: #ff6600;
 }
