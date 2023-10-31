@@ -351,3 +351,31 @@ input[type="radio"] {
 .redes-sociais a:hover {
     text-decoration: underline;
 }
+/* Adicione esta classe para estilizar o formulário do cartão */
+#formulario-cartao {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-cartao label,
+#formulario-cartao input {
+    display: block;
+    margin: 10px 0;
+}
+
+#formulario-cartao button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#formulario-cartao button:hover {
+    background-color: #333;
+}
