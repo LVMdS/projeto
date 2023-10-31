@@ -238,3 +238,116 @@ footer {
     background-color: #333;
     color: #ff6600;
 }
+/*Carrinho*/
+.carrinho-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.produto-details {
+    flex: 2;
+}
+
+.imagem-principal {
+    text-align: center;
+}
+
+.imagem-principal img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.outras-imagens {
+    text-align: center;
+}
+
+.outras-imagens img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.descricao-produto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detalhes-compra {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.calculadora-frete,
+.cupom-desconto {
+    margin-top: 20px;
+}
+
+#cep,
+#cupom {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#calcular-frete,
+#aplicar-cupom {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#calcular-frete:hover,
+#aplicar-cupom:hover {
+    background-color: #333;
+}
+
+.finalizar-compra {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.finalizar-compra:hover {
+    background-color: #333;
+}
+
+.redes-sociais {
+    text-align: left;
+}
+
+.redes-sociais a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.redes-sociais a:hover {
+    text-decoration: underline;
+}

@@ -5,12 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/produto.css">
 </head>
 
 <body>
-    <h2>Página de Produtos</h2>
-    <a href="/index.html">Página Inicial</a>
-</body>
+    <header>
+        <a href="/index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+    </header>
+
+    <body>
+        <div class="produto-container">
+            <div class="imagens">
+                <div class="imagem-destaque">
+                    <img src="produto-destaque.jpg" alt="Produto em Destaque">
+                </div>
+                <div class="miniaturas">
+                    <img src="miniatura1.jpg" alt="Miniatura 1">
+                    <img src="miniatura2.jpg" alt="Miniatura 2">
+                    <img src="miniatura3.jpg" alt="Miniatura 3">
+                </div>
+            </div>
+            <div class="descricao-produto">
+                <h2>Descrição do Produto</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida nisi sit amet tortor
+                    vehicula, ac rhoncus elit dapibus. Vestibulum tincidunt dignissim ex id vulputate.</p>
+            </div>
+            <div class="informacoes-compra">
+                <div class="preco-quantidade">
+                    <label for="valor">Valor (R$):</label>
+                    <input type="number" id="valor" name="valor" value="50" readonly>
+                </div>
+                <div class="preco-quantidade">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" name="quantidade" value="1" min="0">
+                </div>
+                <p>Total do Produto: <span id="total-produto">50</span></p>
+                <a href="checkout.html"><button class="comprar">Comprar</button></a>
+            </div>
+        </div>
+        <footer>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook" width="20" height="20"></a>
+                <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" width="20" height="20"></a>
+                <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" width="20"
+                        height="20"></a>
+            </div>
+            <p>&copy; 2023 Zamagetsi. Todos os direitos reservados.</p>
+        </footer>
+        <script src="../js/valor-total.js"></script>
+    </body>
 
 </html>

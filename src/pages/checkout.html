@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Carrinho</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/reset.css">
 </head>
+
 <body>
-    <h2>Página de Checkout</h2>
-    <a href="/index.html">Página Inicial</a>
+    <header>
+        <a href="/index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+    </header>
+    <div class="carrinho-container">
+        <div class="produto-details">
+            <div class="imagem-principal">
+                <img src="produto.jpg" alt="Produto Principal" width="200" height="200">
+            </div>
+            <div class="outras-imagens">
+                <img src="produto2.jpg" alt="Produto 2" width="50" height="50">
+                <img src="produto3.jpg" alt="Produto 3" width="50" height="50">
+                <img src="produto4.jpg" alt="Produto 4" width="50" height="50">
+            </div>
+            <div class="descricao-produto">
+                <p>Descrição do Produto: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="detalhes-compra">
+            <h2>Resumo da Compra</h2>
+            <p>Opções de Pagamento:</p>
+            <label for="parcelado">Parcelado</label>
+            <input type="radio" id="parcelado" name="pagamento" value="Parcelado">
+            <label for="pix">PIX</label>
+            <input type="radio" id="pix" name="pagamento" value="PIX">
+            <label for="avista">À Vista</label>
+            <input type="radio" id="avista" name="pagamento" value="À Vista">
+            <div class="calculadora-frete">
+                <label for="cep">Calcular Frete:</label>
+                <input type="text" id="cep" placeholder="Digite o CEP">
+                <button id="calcular-frete">Calcular</button>
+            </div>
+            <div class="cupom-desconto">
+                <label for="cupom">Cupom de Desconto:</label>
+                <input type="text" id="cupom" placeholder="Insira o cupom">
+                <button id="aplicar-cupom">Aplicar Cupom</button>
+            </div>
+            <button class="finalizar-compra">Finalizar Compra</button>
+        </div>
+    </div>
+    <footer>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook" width="20" height="20"></a>
+            <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" width="20" height="20"></a>
+            <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" width="20" height="20"></a>
+        </div>
+        <p>&copy; 2023 Zamagetsi. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
+
 </html>

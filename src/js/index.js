@@ -78,7 +78,3 @@ function handleRegistroSubmit(event) {
 
     window.location.href = 'bem-vindo.html';
 }
-
-const registroForm = document.getElementById('registro-form');
-registroForm.addEventListener('submit', handleRegistroSubmit);
-
