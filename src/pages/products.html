@@ -17,19 +17,19 @@
     <body>
         <div class="produto-container">
             <div class="imagens">
-                <div class="imagem-destaque">
-                    <img src="produto-destaque.jpg" alt="Produto em Destaque">
-                </div>
+                <div class="imagens">
+                    <div class="imagem-destaque">
+                        <img id="imagemPrincipal" src="../imagens/teste1.jpg" alt="Produto em Destaque">
+                    </div>
                 <div class="miniaturas">
-                    <img src="miniatura1.jpg" alt="Miniatura 1">
-                    <img src="miniatura2.jpg" alt="Miniatura 2">
-                    <img src="miniatura3.jpg" alt="Miniatura 3">
+                    <img src="../imagens/teste2.jpg" alt="Miniatura 1" onclick="trocarImagem('../imagens/teste2.jpg')">
+                    <img src="../imagens/teste3.jpg" alt="Miniatura 2" onclick="trocarImagem('../imagens/teste3.jpg')">
+                    <img src="../imagens/teste1.jpg" alt="Miniatura 3" onclick="trocarImagem('../imagens/teste1.jpg')">
                 </div>
             </div>
             <div class="descricao-produto">
-                <h2>Descrição do Produto</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida nisi sit amet tortor
-                    vehicula, ac rhoncus elit dapibus. Vestibulum tincidunt dignissim ex id vulputate.</p>
+                <h2 class="titulo-descricao">Descrição do Produto</h2>
+                <p class="texto-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida nisi sit amet tortor vehicula, ac rhoncus elit dapibus. Vestibulum tincidunt dignissim ex id vulputate.</p>
             </div>
             <div class="informacoes-compra">
                 <div class="preco-quantidade">

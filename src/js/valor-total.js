@@ -17,3 +17,6 @@ quantidadeInput.addEventListener('input', calcularTotal);
 // Também atualizamos o valor total ao carregar a página
 window.addEventListener('load', calcularTotal);
 
+function trocarImagem(src) {
+    document.getElementById("imagemPrincipal").src = src;
+}

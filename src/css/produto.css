@@ -1,20 +1,19 @@
 .produto-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #f0f0f0;
+    display: block;
 }
 
 .imagens {
     display: flex;
-    flex-direction: column;
-    margin-right: 20px; /
+}
+.imagem-destaque{
+    max-width: 100%;
+    margin-right: 20px;
 }
 
 .imagem-destaque img {
-    max-width: 100%;
+    max-width: 400px;
     max-height: 400px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .miniaturas {
@@ -24,8 +23,8 @@
 }
 
 .miniaturas img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
     border: 2px solid transparent;
 }
@@ -36,24 +35,26 @@
 
 .descricao-produto {
     text-align: left;
-    margin-top: 360px; 
+    width: 100%;
+    padding: 20px;
 }
 
-.descricao-produto h2 {
+.titulo-descricao {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: left;
 }
 
-.descricao-produto p {
-    text-align: left;
+.texto-descricao {
     font-size: 1em;
 }
 
 .informacoes-compra {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-right: 20px;
 }
 
 .preco-quantidade {
