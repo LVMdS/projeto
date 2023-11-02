@@ -7,12 +7,36 @@
     <title>Área do cliente</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/area-cliente.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
         <a href="/index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+        <div class="auth-buttons">
+           <a href="../pages/login.html"> <button class="login-button">Login</button></a>
+            <a href="../pages/register.html"><button class="register-button">Registro</button></a>
+        </div>
     </header>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="/index.html" class="menu-button">Home</a></li>
+            <li><a href="../pages/products.html" class="menu-button">Produtos</a></li>
+            <li><a href="../pages/checkout.html" class="menu-button">Carrinho</a></li>
+            <li><a href="../pages/costumer.html" class="menu-button">Area Cliente</a></li>
+        </ul>
+        </div>
+    
+        <div class="search">
+            <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
+            <button type="button" id="search-button" class="menu-button">Pesquisar</button>
+        </div>
+    </nav>
 
     <body>
         <div class="area-cliente">
