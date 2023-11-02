@@ -12,16 +12,39 @@
 <body>
     <header>
         <a href="/index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+        <div class="auth-buttons">
+           <a href="./src/pages/login.html"> <button class="login-button">Login</button></a>
+            <a href="./src/pages/register.html"><button class="register-button">Registro</button></a>
+        </div>
     </header>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="/index.html" class="menu-button">Home</a></li>
+            <li><a href="../pages/products.html" class="menu-button">Produtos</a></li>
+            <li><a href="../pages/checkout.html" class="menu-button">Carrinho</a></li>
+            <li><a href="../pages/costumer.html" class="menu-button">Area Cliente</a></li>
+        </ul>
+        </div>
+    
+        <div class="search">
+            <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
+            <button type="button" id="search-button" class="menu-button">Pesquisar</button>
+        </div>
+    </nav>
     <div class="carrinho-container">
         <div class="produto-details">
             <div class="imagem-principal">
-                <img src="produto.jpg" alt="Produto Principal" width="200" height="200">
+                <img src="../imagens/super_nintendo.jpg" alt="Console Super Nintendo" width="200" height="200">
             </div>
             <div class="outras-imagens">
-                <img src="produto2.jpg" alt="Produto 2" width="50" height="50">
-                <img src="produto3.jpg" alt="Produto 3" width="50" height="50">
-                <img src="produto4.jpg" alt="Produto 4" width="50" height="50">
+                <img src="../imagens/joystick_super_nintendo.jpg" alt="Joystick Super Nintendo" width="50" height="50">
+                <img src="../imagens/minigame_retro.jpg" alt="Mini Game Retrô" width="50" height="50">
+                <img src="../imagens/polystation.jpg" alt="Console Polystation" width="50" height="50">
             </div>
             <div class="descricao-produto">
                 <p>Descrição do Produto: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -89,9 +112,9 @@
     </div>
     <footer>
         <div class="redes-sociais">
-            <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook" width="20" height="20"></a>
-            <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" width="20" height="20"></a>
-            <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" width="20" height="20"></a>
+            <a href="https://www.facebook.com/"><img src="../imagens/facebook.png" alt="Facebook" width="20" height="20"></a>
+            <a href="https://twitter.com/"><img src="../imagens/twitter.png" alt="Twitter" width="20" height="20"></a>
+            <a href="https://www.instagram.com/"><img src="../imagens/instagram.png" alt="Instagram" width="20" height="20"></a>
         </div>
         <p>&copy; 2023 Zamagetsi. Todos os direitos reservados.</p>
     </footer>

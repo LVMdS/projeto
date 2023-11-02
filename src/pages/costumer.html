@@ -7,17 +7,41 @@
     <title>Área do cliente</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/area-cliente.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
         <a href="/index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+        <div class="auth-buttons">
+           <a href="./src/pages/login.html"> <button class="login-button">Login</button></a>
+            <a href="./src/pages/register.html"><button class="register-button">Registro</button></a>
+        </div>
     </header>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="/index.html" class="menu-button">Home</a></li>
+            <li><a href="../pages/products.html" class="menu-button">Produtos</a></li>
+            <li><a href="../pages/checkout.html" class="menu-button">Carrinho</a></li>
+            <li><a href="../pages/costumer.html" class="menu-button">Area Cliente</a></li>
+        </ul>
+        </div>
+    
+        <div class="search">
+            <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
+            <button type="button" id="search-button" class="menu-button">Pesquisar</button>
+        </div>
+    </nav>
 
     <body>
         <div class="area-cliente">
             <div class="perfil">
-                <img src="perfil.jpg" alt="Imagem de Perfil">
+                <img src="../imagens/profile.png" alt="Imagem de Perfil">
             </div>
             <div class="informacoes">
                 <h1>Nome Completo do Cliente</h1>
@@ -35,9 +59,9 @@
 
         <footer>
             <div class="redes-sociais">
-                <a href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook" width="20" height="20"></a>
-                <a href="https://twitter.com/"><img src="twitter.png" alt="Twitter" width="20" height="20"></a>
-                <a href="https://www.instagram.com/"><img src="instagram.png" alt="Instagram" width="20"
+                <a href="https://www.facebook.com/"><img src="../imagens/facebook.png" alt="Facebook" width="20" height="20"></a>
+                <a href="https://twitter.com/"><img src="../imagens/twitter.png" alt="Twitter" width="20" height="20"></a>
+                <a href="https://www.instagram.com/"><img src="../imagens/instagram.png" alt="Instagram" width="20"
                         height="20"></a>
             </div>
             <p>&copy; 2023 Zamagetsi. Todos os direitos reservados.</p>
