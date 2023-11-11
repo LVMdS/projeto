@@ -8,6 +8,7 @@
 .imagem-destaque{
     max-width: 100%;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .imagem-destaque img {
@@ -34,27 +35,32 @@
 }
 
 .descricao-produto {
-    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     width: 100%;
     padding: 20px;
 }
 
 .titulo-descricao {
+    margin-top: 280px;
+    margin-left: 10px;
+    text-align: center;
     font-size: 1.5em;
     margin-bottom: 10px;
-    text-align: left;
-}
+ }
 
 .texto-descricao {
     font-size: 1em;
+    text-align: justify;
 }
 
 .informacoes-compra {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 200px;
 }
 
 .preco-quantidade {
