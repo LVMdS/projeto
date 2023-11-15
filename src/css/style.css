@@ -397,7 +397,9 @@ input[type="radio"] {
 }
 
 .redes-sociais a {
-    margin-right: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    margin-left: 15px;
     text-decoration: none;
     color: #000000;
 }
