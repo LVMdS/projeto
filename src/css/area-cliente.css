@@ -4,7 +4,6 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -32,14 +31,13 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .botao-sair {
     display: block;
     margin: 20px auto 20px;
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;

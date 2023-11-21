@@ -1,3 +1,6 @@
+body{
+    background-color: #D5DEEF;
+}
 .body {
     position: relative;
     width: 100%;
@@ -85,16 +88,14 @@
 .menu-button{
     text-decoration: none;
     color: #ffffff;
-    background-color: #ff6600;
+    background-color: #395886;
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-.menu-button:hover,
-.menu-input:hover {
-    background-color: #333333;
-    color: #ff6600;
+.menu-button:hover{
+    background-color: #333
 }
 
 @media (max-width: 768px) {
@@ -135,7 +136,7 @@
 
 .login-button,
 .register-button {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -146,7 +147,6 @@
 .login-button:hover,
 .register-button:hover {
     background-color: #333;
-    color: #ff6600;
 }
 
 .content {
@@ -195,7 +195,6 @@
 
 footer {
     text-align: center;
-    background-color: #ffffff;
     color: #000000;
     padding: 10px;
     margin-top: 30px;
@@ -207,9 +206,10 @@ footer {
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: #fff;
+    background-color: #B1C9EF;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .login-container h2 {
@@ -218,6 +218,7 @@ footer {
 
 .input-field {
     margin-bottom: 15px;
+    margin-right: 20px;
     text-align: left;
 }
 
@@ -235,7 +236,7 @@ footer {
 }
 
 .login-button {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -244,7 +245,6 @@ footer {
 
 .login-button:hover {
     background-color: #333;
-    color: #ff6600;
 }
 
 .registro-container {
@@ -280,7 +280,7 @@ footer {
 }
 
 .registro-button {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -289,7 +289,6 @@ footer {
 
 .registro-button:hover {
     background-color: #333;
-    color: #ff6600;
 }
 
 /*Carrinho*/
@@ -363,7 +362,7 @@ input[type="radio"] {
 
 #calcular-frete,
 #aplicar-cupom {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -378,7 +377,7 @@ input[type="radio"] {
 }
 
 .finalizar-compra {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -425,7 +424,7 @@ input[type="radio"] {
 }
 
 #formulario-cartao button {
-    background-color: #ff6600;
+    background-color: #395886;
     color: #fff;
     border: none;
     border-radius: 5px;
