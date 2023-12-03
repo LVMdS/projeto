@@ -1,6 +1,14 @@
 body{
-    background-color: #D5DEEF;
+    background-color: #395886;
 }
+header{
+    background-color: #ffd003;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 28px;
+}
+
 .body {
     position: relative;
     width: 100%;
@@ -142,6 +150,7 @@ body{
     border-radius: 5px;
     padding: 10px 20px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 .login-button:hover,
@@ -164,6 +173,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .slides {
@@ -194,6 +204,7 @@ body{
 }
 
 footer {
+    background-color: #f53737;
     text-align: center;
     color: #000000;
     padding: 10px;
@@ -296,7 +307,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f0f0f0;
+    color: #f0f0f0;
 }
 
 .produto-details {
@@ -342,6 +353,12 @@ h2 {
 p {
     font-weight: bold;
     margin-top: 10px;
+}
+.boas-vindas{
+    font-size: 28px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0f0;
 }
 
 input[type="radio"] {

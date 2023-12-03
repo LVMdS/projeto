@@ -12,12 +12,12 @@
 
 <body>
     <header>
-        <a href="/index.html"><img src="../imagens/3c2.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
+        <a href="./index.html"><img src="../imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
         <div class="auth-buttons">
-           <a href="../pages/login.html"> <button class="login-button">Login</button></a>
+            <a href="../pages/login.html"> <button class="login-button">Login</button></a>
             <a href="../pages/register.html"><button class="register-button">Registro</button></a>
         </div>
-    </header>
+    
     <nav class="navbar">
         <div class="menu-toggle" id="menu-icon">
             <div class="bar"></div>
@@ -31,49 +31,54 @@
             <li><a href="../pages/costumer.html" class="menu-button">Area Cliente</a></li>
         </ul>
         </div>
-    
+
         <div class="search">
             <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
             <button type="button" id="search-button" class="menu-button">Pesquisar</button>
         </div>
     </nav>
-
-    <body>
+</header>
         <div class="produto-container">
             <div class="imagens">
                 <div class="imagens">
                     <div class="imagem-destaque">
                         <img id="imagemPrincipal" src="../imagens/teste1.jpg" alt="Produto em Destaque">
                     </div>
-                <div class="miniaturas">
-                    <img src="../imagens/teste2.jpg" alt="Miniatura 1" onclick="trocarImagem('../imagens/teste2.jpg')">
-                    <img src="../imagens/teste3.jpg" alt="Miniatura 2" onclick="trocarImagem('../imagens/teste3.jpg')">
-                    <img src="../imagens/teste1.jpg" alt="Miniatura 3" onclick="trocarImagem('../imagens/teste1.jpg')">
+                    <div class="miniaturas">
+                        <img src="../imagens/teste2.jpg" alt="Miniatura 1"
+                            onclick="trocarImagem('../imagens/teste2.jpg')">
+                        <img src="../imagens/teste3.jpg" alt="Miniatura 2"
+                            onclick="trocarImagem('../imagens/teste3.jpg')">
+                        <img src="../imagens/teste1.jpg" alt="Miniatura 3"
+                            onclick="trocarImagem('../imagens/teste1.jpg')">
+                    </div>
+                </div>
+                <div class="informacoes-compra">
+                    <div class="preco-quantidade">
+                        <label for="valor">Valor (R$):</label>
+                        <input type="number" id="valor" name="valor" value="50" readonly>
+                    </div>
+                    <div class="preco-quantidade">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" id="quantidade" name="quantidade" value="1" min="0">
+                    </div>
+                    <p>Total do Produto: <span id="total-produto">50</span></p>
+                    <a href="checkout.html"><button class="comprar">Comprar</button></a>
                 </div>
             </div>
-            <div class="informacoes-compra">
-                <div class="preco-quantidade">
-                    <label for="valor">Valor (R$):</label>
-                    <input type="number" id="valor" name="valor" value="50" readonly>
-                </div>
-                <div class="preco-quantidade">
-                    <label for="quantidade">Quantidade:</label>
-                    <input type="number" id="quantidade" name="quantidade" value="1" min="0">
-                </div>
-                <p>Total do Produto: <span id="total-produto">50</span></p>
-                <a href="checkout.html"><button class="comprar">Comprar</button></a>
+            <div class="descricao-produto">
+                <h2 class="titulo-descricao">Descrição do Produto</h2>
+                <p class="texto-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida nisi
+                    sit amet tortor vehicula, ac rhoncus elit dapibus. Vestibulum tincidunt dignissim ex id vulputate.
+                </p>
             </div>
         </div>
-         <div class="descricao-produto">
-            <h2 class="titulo-descricao">Descrição do Produto</h2>
-            <p class="texto-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida nisi sit amet tortor vehicula, ac rhoncus elit dapibus. Vestibulum tincidunt dignissim ex id vulputate.</p>
-         </div>   
-        </div>
-        
         <footer>
             <div class="redes-sociais">
-                <a href="https://www.facebook.com/"><img src="../imagens/facebook.png" alt="Facebook" width="20" height="20"></a>
-                <a href="https://twitter.com/"><img src="../imagens/twitter.png" alt="Twitter" width="20" height="20"></a>
+                <a href="https://www.facebook.com/"><img src="../imagens/facebook.png" alt="Facebook" width="20"
+                        height="20"></a>
+                <a href="https://twitter.com/"><img src="../imagens/twitter.png" alt="Twitter" width="20"
+                        height="20"></a>
                 <a href="https://www.instagram.com/"><img src="../imagens/instagram.png" alt="Instagram" width="20"
                         height="20"></a>
             </div>

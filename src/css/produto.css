@@ -85,9 +85,8 @@ input[type="number"] {
 }
 
 .comprar {
-    background-color: #395886;
+    background-color: #00ff37;
     color: #fff;
-    border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
