@@ -1,0 +1,51 @@
+.area-cliente {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.perfil img {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.informacoes {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.area-compras, .area-cupons {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao-sair {
+    display: block;
+    margin: 20px auto 20px;
+    background-color: #395886;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.botao-sair:hover {
+    background-color: #333;
+}
