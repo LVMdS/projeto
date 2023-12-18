@@ -12,21 +12,24 @@
 <body>
     <header>
         <a href="./index.html"><img src="./src/imagens/LOGO.png" alt="Logo Zamagetsi" title="Logo Zamagetsi"></a>
-        <div class="auth-buttons">
+        <a href="./index.html"><img src="./src/imagens/mario.gif" alt="Mario Bros" title="Mario Bros" width="200"></a>
+        
+    <div class="auth-buttons">
             <a href="./src/pages/login.html"> <button class="login-button">Login</button></a>
             <a href="./src/pages/register.html"><button class="register-button">Registro</button></a>
-        </div>
 
-        <div class="country-selector">
-                <label for="country-select">Escolha o país:</label>
-                <select id="country-select">
-                    <option value="br"><img src="./src/imagens/brasil.png" alt="Bandeira do Brasil"> Brasil</option>
-                    <option value="pt"><img src="./src/imagens/EUA.png" alt="Bandeira dos Estados Unidos"> Estados Unidos</option>
-                    <option value="us"><img src="./src/imagens/espanha.png" alt="Bandeira da Espanha"> Espanha</option>
-                    <option value="fr"><img src="./src/imagens/portugal.png" alt="Bandeira de Portugal"> Portugal</option>
-                </select>
-            </div>
-        
+    <div class="language">
+        <div class="language-selected" id="selected-country"></div>
+        <button class="select-country-button">Selecione o País</button>
+            <ul class="country-list">
+                <li><a href="#"><img src="src/imagens/br.png" alt="Bandeira Brasil" title="Brasil" width="20"></a></li>
+                <li><a href="#"><img src="src/imagens/EUA.png" alt="Bandeira Estados Unidos" title="United States" width="20"></a></li>
+                <li><a href="#"><img src="src/imagens/es.png" alt="Bandeira Espanha" title="España" width="20"></a></li>
+                <li><a href="#"><img src="src/imagens/fr.png" alt="Bandeira França" title="France" width="20"></a></li>
+           </ul>
+        </div>
+    </div>
+   
         <nav class="navbar">
             <div class="menu-toggle" id="menu-icon">
                 <div class="bar"></div>
@@ -40,13 +43,14 @@
                 <li><a href="./src/pages/checkout.html" class="menu-button">Carrinho</a></li>
                 <li><a href="./src/pages/costumer.html" class="menu-button">Area Cliente</a></li>
             </ul>
-            </div>
+        </div>
 
             <div class="search">
                 <input type="text" id="search-input" class="menu-input" placeholder="Pesquisar">
                 <button type="button" id="search-button" class="menu-button">Pesquisar</button>
             </div>
-        </nav>
+        </nav>   
+        
     </header>
     <main>
         <div>
