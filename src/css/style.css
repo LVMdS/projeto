@@ -19,43 +19,6 @@ header{
     overflow: hidden;
 }
 
-.bolhas {
-    position: absolute;
-    display: flex
-}
-
-.bolhas span {
-    width: 50px;
-    height: 30px;
-    background: #e5ff00;
-    margin: 0 4px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #e5ff0044,
-        0 0 50px #e5ff00,
-        0 0 100px #e5ff00;
-    animation: animar calc(30s / var(--i)) linear infinite;
-}
-
-
-@keyframes animar {
-    0% {
-        transform: translateY(100vh) scale(0);
-    }
-
-    100% {
-        transform: translateY(-10vh) scale(1);
-    }
-}
-
-.bolhas span:nth-of-type(even) {
-    background: #2dc3ff;
-    box-shadow: 0 0 0 10px #2dc3ff44,
-        0 0 50px #2dc3ff,
-        0 0 100px #2dc3ff;
-
-
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
